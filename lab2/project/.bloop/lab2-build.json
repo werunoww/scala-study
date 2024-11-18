@@ -1,16 +1,16 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "hello-world2-build",
-        "directory": "/home/werunow/scala_project/hello-world2/project",
-        "workspaceDir": "/home/werunow/scala_project/hello-world2/project",
+        "name": "lab2-build",
+        "directory": "/home/werunow/scala_project/lab2/project",
+        "workspaceDir": "/home/werunow/scala_project/lab2/project",
         "sources": [
-            "/home/werunow/scala_project/hello-world2/project/src/main/scala",
-            "/home/werunow/scala_project/hello-world2/project/src/main/scala-2.12",
-            "/home/werunow/scala_project/hello-world2/project/src/main/scala-2",
-            "/home/werunow/scala_project/hello-world2/project/src/main/java",
-            "/home/werunow/scala_project/hello-world2/project/src/main/scala-sbt-1.0",
-            "/home/werunow/scala_project/hello-world2/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/home/werunow/scala_project/lab2/project/src/main/scala",
+            "/home/werunow/scala_project/lab2/project/src/main/scala-2.12",
+            "/home/werunow/scala_project/lab2/project/src/main/scala-2",
+            "/home/werunow/scala_project/lab2/project/src/main/java",
+            "/home/werunow/scala_project/lab2/project/src/main/scala-sbt-1.0",
+            "/home/werunow/scala_project/lab2/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -18,10 +18,10 @@
         "classpath": [
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.10.2/sbt-1.10.2.jar",
             "/home/werunow/.sbt/boot/scala-2.12.19/lib/scala-library.jar",
-            "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.6.0/sbt-bloop_2.12_1.0-1.6.0.jar",
+            "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.5/sbt-bloop_2.12_1.0-2.0.5.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.10.2/main_2.12-1.10.2.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.0/io_2.12-1.10.0.jar",
-            "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.2/bloop-config_2.12-2.0.2.jar",
+            "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.1.0/bloop-config_2.12-2.1.0.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.10.2/logic_2.12-1.10.2.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.10.2/actions_2.12-1.10.2.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.10.2/main-settings_2.12-1.10.2.jar",
@@ -45,7 +45,7 @@
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar",
-            "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar",
+            "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.30.14/jsoniter-scala-core_2.12-2.30.14.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.12/0.1.12/unroll-annotation_2.12-0.1.12.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.2/util-relation_2.12-1.10.2.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.10.2/completion_2.12-1.10.2.jar",
@@ -105,11 +105,11 @@
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
         ],
-        "out": "/home/werunow/scala_project/hello-world2/project/.bloop/hello-world2-build",
-        "classesDir": "/home/werunow/scala_project/hello-world2/project/.bloop/hello-world2-build/scala-2.12/sbt-1.0/classes",
+        "out": "/home/werunow/scala_project/lab2/project/.bloop/lab2-build",
+        "classesDir": "/home/werunow/scala_project/lab2/project/.bloop/lab2-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/home/werunow/scala_project/hello-world2/project/src/main/resources",
-            "/home/werunow/scala_project/hello-world2/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/home/werunow/scala_project/lab2/project/src/main/resources",
+            "/home/werunow/scala_project/lab2/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -216,7 +216,7 @@
             "config": {
                 "home": "/home/werunow/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
                 "options": [
-                    "-Duser.dir=/home/werunow/scala_project/hello-world2/project"
+                    "-Duser.dir=/home/werunow/scala_project/lab2/project"
                 ]
             },
             "mainClass": [
@@ -225,14 +225,14 @@
             "runtimeConfig": {
                 "home": "/home/werunow/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
                 "options": [
-                    "-Duser.dir=/home/werunow/scala_project/hello-world2/project"
+                    "-Duser.dir=/home/werunow/scala_project/lab2/project"
                 ]
             },
             "classpath": [
-                "/home/werunow/scala_project/hello-world2/project/.bloop/hello-world2-build/scala-2.12/sbt-1.0/classes",
-                "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.6.0/sbt-bloop_2.12_1.0-1.6.0.jar",
-                "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.2/bloop-config_2.12-2.0.2.jar",
-                "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar",
+                "/home/werunow/scala_project/lab2/project/.bloop/lab2-build/scala-2.12/sbt-1.0/classes",
+                "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.5/sbt-bloop_2.12_1.0-2.0.5.jar",
+                "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.1.0/bloop-config_2.12-2.1.0.jar",
+                "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.30.14/jsoniter-scala-core_2.12-2.30.14.jar",
                 "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.12/0.1.12/unroll-annotation_2.12-0.1.12.jar",
                 "/home/werunow/.sbt/boot/scala-2.12.19/lib/scala-library.jar"
             ]
@@ -242,51 +242,51 @@
                 {
                     "organization": "ch.epfl.scala",
                     "name": "sbt-bloop",
-                    "version": "1.6.0",
+                    "version": "2.0.5",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "sbt-bloop",
-                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.6.0/sbt-bloop_2.12_1.0-1.6.0.jar"
+                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.5/sbt-bloop_2.12_1.0-2.0.5.jar"
                         },
                         {
                             "name": "sbt-bloop",
                             "classifier": "sources",
-                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.6.0/sbt-bloop_2.12_1.0-1.6.0-sources.jar"
+                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.5/sbt-bloop_2.12_1.0-2.0.5-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "ch.epfl.scala",
                     "name": "bloop-config_2.12",
-                    "version": "2.0.2",
+                    "version": "2.1.0",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "bloop-config_2.12",
-                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.2/bloop-config_2.12-2.0.2.jar"
+                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.1.0/bloop-config_2.12-2.1.0.jar"
                         },
                         {
                             "name": "bloop-config_2.12",
                             "classifier": "sources",
-                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.2/bloop-config_2.12-2.0.2-sources.jar"
+                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.1.0/bloop-config_2.12-2.1.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.github.plokhotnyuk.jsoniter-scala",
                     "name": "jsoniter-scala-core_2.12",
-                    "version": "2.4.0",
+                    "version": "2.30.14",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "jsoniter-scala-core_2.12",
-                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar"
+                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.30.14/jsoniter-scala-core_2.12-2.30.14.jar"
                         },
                         {
                             "name": "jsoniter-scala-core_2.12",
                             "classifier": "sources",
-                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0-sources.jar"
+                            "path": "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.30.14/jsoniter-scala-core_2.12-2.30.14-sources.jar"
                         }
                     ]
                 },

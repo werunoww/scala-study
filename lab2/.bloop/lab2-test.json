@@ -1,29 +1,29 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "hello-world2-test",
-        "directory": "/home/werunow/scala_project/hello-world2",
-        "workspaceDir": "/home/werunow/scala_project/hello-world2",
+        "name": "lab2-test",
+        "directory": "/home/werunow/scala_project/lab2",
+        "workspaceDir": "/home/werunow/scala_project/lab2",
         "sources": [
-            "/home/werunow/scala_project/hello-world2/src/test/scala",
-            "/home/werunow/scala_project/hello-world2/src/test/scala-3",
-            "/home/werunow/scala_project/hello-world2/src/test/java",
-            "/home/werunow/scala_project/hello-world2/target/scala-3.5.0/src_managed/test"
+            "/home/werunow/scala_project/lab2/src/test/scala",
+            "/home/werunow/scala_project/lab2/src/test/scala-3",
+            "/home/werunow/scala_project/lab2/src/test/java",
+            "/home/werunow/scala_project/lab2/target/scala-3.5.0/src_managed/test"
         ],
         "dependencies": [
-            "hello-world2"
+            "lab2"
         ],
         "classpath": [
-            "/home/werunow/scala_project/hello-world2/.bloop/hello-world2/scala-3/classes",
+            "/home/werunow/scala_project/lab2/.bloop/lab2/scala-3/classes",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.0/scala3-library_3-3.5.0.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_3/2.3.0/scala-parser-combinators_3-2.3.0.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar"
         ],
-        "out": "/home/werunow/scala_project/hello-world2/.bloop/hello-world2",
-        "classesDir": "/home/werunow/scala_project/hello-world2/.bloop/hello-world2/scala-3/test-classes",
+        "out": "/home/werunow/scala_project/lab2/.bloop/lab2",
+        "classesDir": "/home/werunow/scala_project/lab2/.bloop/lab2/scala-3/test-classes",
         "resources": [
-            "/home/werunow/scala_project/hello-world2/src/test/resources",
-            "/home/werunow/scala_project/hello-world2/target/scala-3.5.0/resource_managed/test"
+            "/home/werunow/scala_project/lab2/src/test/resources",
+            "/home/werunow/scala_project/lab2/target/scala-3.5.0/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -92,7 +92,10 @@
                 "addExtraJarsToClasspath": false,
                 "manageBootClasspath": false,
                 "filterLibraryFromClasspath": false
-            }
+            },
+            "bridgeJars": [
+                "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.0/scala3-sbt-bridge-3.5.0.jar"
+            ]
         },
         "java": {
             "options": [
@@ -163,7 +166,7 @@
             "config": {
                 "home": "/home/werunow/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
                 "options": [
-                    "-Duser.dir=/home/werunow/scala_project/hello-world2"
+                    "-Duser.dir=/home/werunow/scala_project/lab2"
                 ]
             },
             "mainClass": [

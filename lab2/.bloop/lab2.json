@@ -1,14 +1,14 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "hello-world2",
-        "directory": "/home/werunow/scala_project/hello-world2",
-        "workspaceDir": "/home/werunow/scala_project/hello-world2",
+        "name": "lab2",
+        "directory": "/home/werunow/scala_project/lab2",
+        "workspaceDir": "/home/werunow/scala_project/lab2",
         "sources": [
-            "/home/werunow/scala_project/hello-world2/src/main/scala",
-            "/home/werunow/scala_project/hello-world2/src/main/scala-3",
-            "/home/werunow/scala_project/hello-world2/src/main/java",
-            "/home/werunow/scala_project/hello-world2/target/scala-3.5.0/src_managed/main"
+            "/home/werunow/scala_project/lab2/src/main/scala",
+            "/home/werunow/scala_project/lab2/src/main/scala-3",
+            "/home/werunow/scala_project/lab2/src/main/java",
+            "/home/werunow/scala_project/lab2/target/scala-3.5.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -18,11 +18,11 @@
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_3/2.3.0/scala-parser-combinators_3-2.3.0.jar",
             "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar"
         ],
-        "out": "/home/werunow/scala_project/hello-world2/.bloop/hello-world2",
-        "classesDir": "/home/werunow/scala_project/hello-world2/.bloop/hello-world2/scala-3/classes",
+        "out": "/home/werunow/scala_project/lab2/.bloop/lab2",
+        "classesDir": "/home/werunow/scala_project/lab2/.bloop/lab2/scala-3/classes",
         "resources": [
-            "/home/werunow/scala_project/hello-world2/src/main/resources",
-            "/home/werunow/scala_project/hello-world2/target/scala-3.5.0/resource_managed/main"
+            "/home/werunow/scala_project/lab2/src/main/resources",
+            "/home/werunow/scala_project/lab2/target/scala-3.5.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -91,7 +91,10 @@
                 "addExtraJarsToClasspath": false,
                 "manageBootClasspath": false,
                 "filterLibraryFromClasspath": false
-            }
+            },
+            "bridgeJars": [
+                "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.0/scala3-sbt-bridge-3.5.0.jar"
+            ]
         },
         "java": {
             "options": [
@@ -162,7 +165,7 @@
             "config": {
                 "home": "/home/werunow/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
                 "options": [
-                    "-Duser.dir=/home/werunow/scala_project/hello-world2"
+                    "-Duser.dir=/home/werunow/scala_project/lab2"
                 ]
             },
             "mainClass": [
@@ -171,11 +174,11 @@
             "runtimeConfig": {
                 "home": "/home/werunow/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35",
                 "options": [
-                    "-Duser.dir=/home/werunow/scala_project/hello-world2"
+                    "-Duser.dir=/home/werunow/scala_project/lab2"
                 ]
             },
             "classpath": [
-                "/home/werunow/scala_project/hello-world2/.bloop/hello-world2/scala-3/classes",
+                "/home/werunow/scala_project/lab2/.bloop/lab2/scala-3/classes",
                 "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.5.0/scala3-library_3-3.5.0.jar",
                 "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_3/2.3.0/scala-parser-combinators_3-2.3.0.jar",
                 "/home/werunow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar"

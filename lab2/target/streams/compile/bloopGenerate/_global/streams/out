@@ -1,4 +1,4 @@
-[debug] [hello-world2] Classpath dependencies List()
-[debug] [hello-world2] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'hello-world2' to '/home/werunow/scala_project/hello-world2/.bloop/hello-world2.json'
-[success] Generated .bloop/hello-world2.json
+[debug] [lab2] Classpath dependencies List()
+[debug] [lab2] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'lab2' to '/home/werunow/scala_project/lab2/.bloop/lab2.json'
+[success] Generated .bloop/lab2.json
