@@ -1,3 +1,16 @@
+file://<WORKSPACE>/src/main/scala/sample.scala
+### scala.MatchError: TypeDef(B,TypeBoundsTree(EmptyTree,EmptyTree,EmptyTree)) (of class dotty.tools.dotc.ast.Trees$TypeDef)
+
+occurred in the presentation compiler.
+
+presentation compiler configuration:
+
+
+action parameters:
+offset: 3064
+uri: file://<WORKSPACE>/src/main/scala/sample.scala
+text:
+```scala
 import scala.util.{Try, Success, Failure}
 import scala.concurrent.Future
 import scala.io.StdIn.readLine
@@ -80,7 +93,7 @@ def readPassword(): Future[String] = {
 //2.3
 trait Functor[F[_]] {
   def map[A, B](fa: F[A])(f: A => B): F[B]
-}
+}а@@
 
 @main def main():Unit = {
     //2.1
@@ -109,3 +122,21 @@ trait Functor[F[_]] {
     println(s"Password success: $finalPassword")
     println("****************************************")
 }
+```
+
+
+
+#### Error stacktrace:
+
+```
+dotty.tools.pc.completions.KeywordsCompletions$.checkTemplateForNewParents$$anonfun$2(KeywordsCompletions.scala:218)
+	scala.Option.map(Option.scala:242)
+	dotty.tools.pc.completions.KeywordsCompletions$.checkTemplateForNewParents(KeywordsCompletions.scala:215)
+	dotty.tools.pc.completions.KeywordsCompletions$.contribute(KeywordsCompletions.scala:44)
+	dotty.tools.pc.completions.Completions.completions(Completions.scala:122)
+	dotty.tools.pc.completions.CompletionProvider.completions(CompletionProvider.scala:90)
+	dotty.tools.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:146)
+```
+#### Short summary: 
+
+scala.MatchError: TypeDef(B,TypeBoundsTree(EmptyTree,EmptyTree,EmptyTree)) (of class dotty.tools.dotc.ast.Trees$TypeDef)

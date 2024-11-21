@@ -1,0 +1,154 @@
+2024.11.21 17:09:13 INFO  Started: Metals version 1.4.1 in folders '/home/werunow/scala_project/lab2' for client Visual Studio Code 1.95.3.[0m
+2024.11.21 17:09:15 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.11.21 17:09:15 INFO  Attempting to connect to the build server...[0m
+2024.11.21 17:09:15 INFO  No running Bloop server found, starting one.[0m
+2024.11.21 17:09:18 INFO  Starting compilation server[0m
+2024.11.21 17:09:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/werunow/scala_project/lab2/.metals/bsp.trace.json or /home/werunow/.cache/metals/bsp.trace.json[0m
+2024.11.21 17:09:22 INFO  time: Connected to build server in 6.65s[0m
+2024.11.21 17:09:22 INFO  Connected to Build server: Bloop v2.0.5[0m
+2024.11.21 17:09:22 INFO  time: Imported build in 0.2s[0m
+2024.11.21 17:09:22 INFO  running doctor check[0m
+2024.11.21 17:09:22 INFO  java targets: lab2, lab2-test[0m
+2024.11.21 17:09:28 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.11.21 17:09:31 INFO  time: indexed workspace in 8.72s[0m
+Nov 21, 2024 5:09:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2024.11.21 17:12:15 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:12:20 INFO  time: compiled lab2 in 4.8s[0m
+Nov 21, 2024 5:12:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 233
+Nov 21, 2024 5:12:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 234
+2024.11.21 17:12:24 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:12:26 INFO  time: compiled lab2 in 1.69s[0m
+2024.11.21 17:15:53 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:15:53 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:15:55 INFO  time: compiled lab2 in 1.53s[0m
+2024.11.21 17:15:55 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:15:58 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:00 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:04 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:08 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:21 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:25 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:43 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:48 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:48 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:48 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:16:48 INFO  time: compiled lab2 in 0.57s[0m
+2024.11.21 17:16:49 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:54 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:16:56 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:00 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:05 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:07 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:09 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:09 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:09 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:09 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:09 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:09 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:09 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:10 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:17:10 INFO  time: compiled lab2 in 0.42s[0m
+2024.11.21 17:17:11 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:11 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:13 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:17:13 INFO  time: compiled lab2 in 0.44s[0m
+2024.11.21 17:17:13 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:27 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:29 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:33 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:37 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:17:44 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:18:29 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:18:31 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:18:34 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:18:35 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:18:35 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:18:35 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:18:35 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:18:35 WARN  Could not load snapshot text for /home/werunow/scala_project/lab2/src/main/scala/sample.scala[0m
+2024.11.21 17:18:36 INFO  time: compiled lab2 in 1.32s[0m
+2024.11.21 17:20:52 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:20:54 INFO  time: compiled lab2 in 1.12s[0m
+Nov 21, 2024 5:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 633
+2024.11.21 17:21:43 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:21:43 INFO  time: compiled lab2 in 0.76s[0m
+2024.11.21 17:21:47 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:21:47 INFO  time: compiled lab2 in 0.67s[0m
+2024.11.21 17:26:01 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:26:02 INFO  time: compiled lab2 in 1.05s[0m
+Nov 21, 2024 5:26:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 853
+Nov 21, 2024 5:26:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 854
+2024.11.21 17:26:31 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:26:31 INFO  time: compiled lab2 in 0.7s[0m
+2024.11.21 17:26:50 ERROR /home/werunow/scala_project/lab2/src/main/scala/sample.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.11.21 17:26:50 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:26:50 INFO  time: compiled lab2 in 0.67s[0m
+Nov 21, 2024 5:26:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 959
+2024.11.21 17:26:59 ERROR /home/werunow/scala_project/lab2/src/main/scala/sample.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.11.21 17:26:59 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:26:59 INFO  time: compiled lab2 in 0.32s[0m
+2024.11.21 17:27:10 INFO  compiling lab2 (1 scala source)[0m
+2024.11.21 17:27:10 INFO  time: compiled lab2 in 0.78s[0m
+Nov 21, 2024 5:32:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/werunow/scala_project/lab2/.metals/.reports/metals-full/2024-11-21/r_compiler-error_(lab2)_17-32-43-078.md
+Nov 21, 2024 5:33:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
