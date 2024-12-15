@@ -32,19 +32,25 @@ object IntegralActor {
 
 // Актор для суммирования частичных результатов
 object SumActor{
-    case class AddResult(sum: Double)
+    //добавим remainingResults для количества оставшихся вычислений
+    case class AddResult(sum: Double, remainingResults: Int)
     case class FinalResult(result: Double)
 
     def apply(): Behavior[AddResult] = Behaviors.setup { (context) =>
-        var finalSum = 0.0
+        var totalSum = 0.0
+        var resultsLeft = 0
 
         Behaviors.receiveMessage {
-            case AddResult(sum) => 
-                finalSum += sum
+            case AddResult(sum, remainingResults) => 
+                totalSum += sum
+                resultsLeft = remainingResults
                 //Логируем промежуточный результат
-                context.log.info(s"Partial sum: $sum, current total: $finalSum")
-                //Логируем финальный результат
-                context.log.info(s"Final result: $finalSum")
+                context.log.info(s"Partial sum: $sum, current total: $totalSum, remaining: $resultsLeft")
+                // Если все результаты получены, выводим финальный результат
+                if (resultsLeft == 0) {
+                    context.log.info(s"Final result: $totalSum")
+                }
+
                 Behaviors.same
         }
     }
@@ -55,7 +61,7 @@ object MainActor {
   case class StartCalculation(l: Double, r: Double, steps: Int)
 
   def apply(): Behavior[StartCalculation] = Behaviors.setup { (context) =>
-    //Создание акторов для вычисления интеграла и суммирования
+    // Создание акторов для вычисления интеграла и суммирования
     val integralActor = context.spawn(IntegralActor(), "integralActor")
     val sumActor = context.spawn(SumActor(), "sumActor")
 
@@ -70,19 +76,20 @@ object MainActor {
 
     Behaviors.receiveMessage {
       case StartCalculation(l, r, steps) =>
-        //Вычисление шага для каждого подактора
+        // Вычисление шага для каждого подактора
         val stepSize = (r - l) / steps
-        //Количество акторов
-        val numActors = 4 
+        // Количество акторов
+        val numActors = 4
+        var remainingResults = numActors
 
-        (0 until numActors)
-        .foreach { i =>
+        (0 until numActors).foreach { i =>
           val start = l + i * ((r-l) / numActors) 
           val numSteps = steps / numActors
-          //Актор для обработки результата других акторов
+          // Актор для обработки результата других акторов
           val replyTo = context.spawn(Behaviors.receiveMessage[IntegralActor.Result] {
             case IntegralActor.Result(partialSum) =>
-              sumActor ! SumActor.AddResult(partialSum)
+              remainingResults -= 1
+              sumActor ! SumActor.AddResult(partialSum, remainingResults)
               Behaviors.same
           }, s"responseActor-${i}")
           // Отправляем вычисления на интеграцию
